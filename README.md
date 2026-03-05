@@ -146,6 +146,7 @@ FROM zepto_analysis
 GROUP BY category;
 
 
+
 Key Insights
 
 Some products offer very high discounts, providing better value for customers.
@@ -159,6 +160,7 @@ Price-per-gram analysis helps identify cost-effective products.
 Inventory weight analysis provides insights for warehouse management.
 
 
+
 Tools Used
 
 SQL
@@ -166,6 +168,7 @@ SQL
 PostgreSQL
 
 Data Analysis Techniques
+
 
 
 Project Outcome
