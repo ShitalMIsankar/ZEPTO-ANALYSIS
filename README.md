@@ -1,4 +1,4 @@
-# ZEPTO-ANALYSIS
+Zepto SQL Data Analysis
 Project Overview
 
 This project performs data exploration, cleaning, and analysis on a Zepto product dataset using SQL. The objective is to derive meaningful insights about product pricing, discounts, inventory availability, and category-level revenue.
@@ -38,25 +38,34 @@ CREATE TABLE zepto_analysis (
    quantity INTEGER
 );
 
-
 Data Exploration
-Initial exploration was performed to understand the dataset structure
+
+Initial exploration was performed to understand the dataset structure.
 
 Key steps included:
+
 Counting total rows
+
 Viewing sample records
+
 Checking for NULL values
+
 Identifying unique product categories
+
 Checking stock availability
+
 Detecting duplicate product names
 
 Example query:
+
 SELECT COUNT(*) FROM zepto_analysis;
 
 Data Cleaning
 
 Data cleaning steps included:
+
 Removing Invalid Price Data
+
 Products with MRP = 0 were removed.
 
 DELETE FROM zepto_analysis
@@ -135,22 +144,33 @@ GROUP BY category;
 Key Insights
 
 Some products offer very high discounts, providing better value for customers.
+
 High-priced products are sometimes out of stock, indicating strong demand.
+
 Discount levels vary significantly across product categories.
+
 Price-per-gram analysis helps identify cost-effective products.
+
 Inventory weight analysis provides insights for warehouse management.
 
 Tools Used
 
 SQL
+
 PostgreSQL
+
 Data Analysis Techniques
 
 Project Outcome
 
 This project demonstrates how SQL can be used to:
+
 Explore large datasets
+
 Clean inconsistent data
+
 Generate business insights
+
 Perform product and pricing analysis
+
 These insights can help businesses optimize pricing strategies, inventory management, and promotional campaigns.
